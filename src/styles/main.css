@@ -1,0 +1,66 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: 
+    "Microsoft YaHei",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "WenQuanYi Micro Hei",
+    "SimSun",
+    sans-serif;
+}
+#app{
+  height: 100%;
+  background-color: #F7F7F7;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.search-box{
+  display: flex;
+}
+.search-box .search-form{
+  flex: 1;
+}
+.box-btn{
+  width: 200px;
+  text-align: right;
+}
+.mt12{
+  margin-top: 12px;
+}
+/* .el-table{
+  color: #333;
+} */
+.el-table .el-table__header tr th{
+  background-color: #F2F2F2;
+  color: #606266;
+  font-weight: normal;
+}
+.el-table .el-button.is-text{
+  color: #1999FC;
+  padding: 0;
+  height: 20px;
+  line-height: 23px;
+}
+.el-pagination{
+  justify-content: flex-end;
+}
+.el-pagination .el-select{
+  min-width: 110px;
+  width: 110px;
+}
+.el-select{
+  min-width: 192px;
+}
+.card-shadow{
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px #ECEBEA;
+  padding: 15px;
+  background-color: #fff;
+}

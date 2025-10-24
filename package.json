@@ -1,0 +1,27 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@webav/av-canvas": "1.1.15",
+    "@webav/av-cliper": "1.1.15",
+    "ali-oss": "^6.23.0",
+    "axios": "^1.10.0",
+    "element-plus": "^2.10.4",
+    "js-cookie": "^3.0.5",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.0"
+  }
+}
